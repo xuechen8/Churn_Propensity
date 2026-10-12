@@ -8,7 +8,7 @@ This project is inspired by my professional experience in customer lifecycle ana
 In my previous role, I worked on customer churn analysis, retention performance, and data-driven decision-making to support customer retention initiatives.
 To demonstrate a similar analytical approach while respecting data confidentiality, I independently developed this project using the publicly available UCI Iranian Telecom Churn Dataset.
 The project covers feature engineering, churn propensity modeling, model evaluation, and risk-based retention prioritization.
-All code, model performance metrics, and visualizations in this repository are based on the public dataset and do not represent proprietary systems or production results from my previous employer.res and modeling choices are adapted to it, while the business questions are the same: who is at risk, which signals drive churn, and how a limited retention budget should be prioritized.
+All code, performance metrics, and visualizations presented here are based on public data and do not represent production results from my previous employer.
 
 ## Key Results
 | | Result |
@@ -79,7 +79,6 @@ Churn_Propensity/
 ## Data
 Iranian telecom customer churn dataset from the UCI Machine Learning Repository: 3,150 customers, usage aggregated over 9 months, churn labelled at month 12. Coded fields: `complains` (1 = complaint filed), `tariff_plan` (1 = pay-as-you-go, 2 = contractual), `status` (1 = active, 2 = inactive).
 
-In US wireless terms, pay-as-you-go plans are analogous to **prepaid** and contractual plans to **postpaid**. Signals common in US carrier data, such as autopay enrollment or payment method, are not available in this dataset.
 
 ## How to Run
 ```bash
